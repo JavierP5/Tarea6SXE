@@ -1,7 +1,7 @@
 # Tarea6SXE
 Práctica de Docker con PrestaShop. A continuación, se detallan los pasos realizados con los comandos utilizados y una breve descripción de cada uno.
 
-1. **Descargar la imagen de PrestaShop**
+# 1. **Descargar la imagen de PrestaShop**
    - Comandos utilizados:
      ```bash
      docker pull prestashop/prestashop:latest
@@ -11,7 +11,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
      - Se descarga la imagen de PrestaShop desde Docker Hub.
      - Se verifica que la imagen se haya descargado correctamente con `docker images`.
 
-2. **Crear un archivo `docker-compose.yml`**
+# 2. **Crear un archivo `docker-compose.yml`**
    - Comandos utilizados:
      ```bash
      nano docker-compose.yml
@@ -19,7 +19,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
    - Descripción:
      - Se crea un archivo `docker-compose.yml` en el directorio del proyecto para definir los servicios de Docker.
 
-3. **Agregar configuración al archivo `docker-compose.yml`**
+# 3. **Agregar configuración al archivo `docker-compose.yml`**
    - Contenido a añadir:
      ```yaml
      version: '3.1'
@@ -53,7 +53,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
    - Descripción:
      - Se define la configuración necesaria para crear el contenedor de PrestaShop y la base de datos MySQL.
 
-4. **Iniciar los contenedores**
+# 4. **Iniciar los contenedores**
    - Comandos utilizados:
      ```bash
      docker compose up -d
@@ -61,11 +61,11 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
    - Descripción:
      - Se inician los contenedores de PrestaShop y MySQL en segundo plano.
 
-5. **Acceder a la instalación de PrestaShop**
+# 5. **Acceder a la instalación de PrestaShop**
    - Descripción:
      - Para acceder a la instalación de PrestaShop, abre tu navegador y dirígete a `http://localhost:8080`.
 
-6. **Detener los contenedores**
+# 6. **Detener los contenedores**
    - Comandos utilizados:
      ```bash
      docker compose down
@@ -73,7 +73,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
    - Descripción:
      - Se detienen y eliminan los contenedores creados por Docker Compose.
 
-7. **Verificar el estado de los contenedores**
+# 7. **Verificar el estado de los contenedores**
    - Comandos utilizados:
      ```bash
      docker ps
