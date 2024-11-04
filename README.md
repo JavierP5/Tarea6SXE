@@ -65,7 +65,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
    - Descripción:
      - Para acceder a la instalación de PrestaShop, abre tu navegador y dirígete a `http://localhost:8080`.
     
-     ![Captura desde 2024-11-04 10-47-16](https://github.com/user-attachments/assets/db7ab877-9fa8-4973-9a9e-939fa7dc27eb)
+![Captura desde 2024-11-04 10-50-24](https://github.com/user-attachments/assets/e484d29e-d701-4e5f-9c2c-f947a0ca01a0)
 
 
 # 6. **Detener los contenedores**
