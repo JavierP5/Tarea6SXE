@@ -70,7 +70,7 @@ Práctica de Docker con PrestaShop. A continuación, se detallan los pasos reali
 ![Captura 3](https://github.com/JavierP5/Tarea6SXE/blob/main/Captura%20de%20pantalla%20de%202025-02-10%2010-11-31.png)  
 ![Captura 4](https://github.com/JavierP5/Tarea6SXE/blob/main/Captura%20de%20pantalla%20de%202025-02-10%2010-04-05.png)  
 ![Captura 5](https://github.com/JavierP5/Tarea6SXE/blob/main/Captura%20de%20pantalla%20de%202025-02-10%2010-04-14.png)  
-![Captura 6](https://github.com/JavierP5/Tarea6SXE/blob/main/Captura%20de%20pantalla%20de%202025-02-10%2010-05-14.png)  
+![Captura 6]
 
 # 6. **Detener los contenedores**
    - Comandos utilizados:
